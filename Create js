@@ -13,9 +13,9 @@ function listNFTs(){
     for(let i=0;i<NFTs.length;i++){
         console.log("\nId :" +(i+1));
         console.log("name : \t\t" +NFTs[i].name);
-        console.log("\neyeColor :\t" +NFTs[i].eyeColor);
-        console.log("\nshirttype :" +NFTs[i].shirtType);
-        console.log("\nbling:\t\t" +NFTs[i].bling);
+        console.log("eyeColor :\t" +NFTs[i].eyeColor);
+        console.log("shirttype :" +NFTs[i].shirtType);
+        console.log("bling:\t\t" +NFTs[i].bling);
     }
 }
 function getTotalSupply(){
